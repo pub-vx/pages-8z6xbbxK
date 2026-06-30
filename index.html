@@ -1,0 +1,85 @@
+<!doctype html><html lang=ko><head><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>우리 자동화 키우기</title><style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#0d1117;color:#e6edf3;font-family:-apple-system,'Segoe UI',Roboto,'Apple SD Gothic Neo',sans-serif;
+line-height:1.6;padding:28px 16px;font-size:16px}
+.wrap{max-width:760px;margin:0 auto}
+h1{font-size:20px;font-weight:700;margin-bottom:18px;color:#e6edf3}
+.card{background:#161b22;border:1px solid #21262d;border-radius:14px;padding:22px;margin-bottom:18px}
+.hero{text-align:center}
+.face{font-size:64px;line-height:1}.mood{font-size:26px}
+.stg{font-size:19px;font-weight:700;margin:10px 0 4px}
+.bubble{display:inline-block;background:#1f6feb22;border:1px solid #1f6feb55;border-radius:12px;
+padding:12px 16px;font-size:15.5px;margin:8px 0 14px;text-align:left;max-width:560px}
+.sub{color:#8b949e;font-size:13.5px;margin-bottom:14px}
+.gbar{height:12px;background:#21262d;border-radius:8px;overflow:hidden;max-width:420px;margin:6px auto}
+.gfill{height:100%;background:linear-gradient(90deg,#3fb950,#56d364)}
+.ladder{display:flex;align-items:flex-start;justify-content:center;gap:2px;margin-top:16px;flex-wrap:wrap}
+.lad{font-size:30px;text-align:center;color:#8b949e;opacity:.5;padding:6px 4px;border-radius:10px}
+.lad small{font-size:11px;line-height:1.3;display:block}
+.lad.cur{opacity:1;color:#e6edf3;border:2px solid #4493f8;background:#4493f818}
+.arr{color:#30363d;font-size:22px;align-self:center}
+h2{font-size:16.5px;font-weight:700;margin:22px 0 10px}
+.vbox{background:#161b22;border:1px solid #21262d;border-left:3px solid #4493f8;border-radius:10px;
+padding:14px 16px;font-size:15.5px}
+.gr{display:flex;align-items:center;gap:10px;margin:8px 0}
+.grn{width:90px;font-size:15px;font-weight:600}
+.grt{flex:1;height:11px;background:#21262d;border-radius:7px;overflow:hidden}
+.grf{display:block;height:100%}.grm{width:46px;text-align:right;font-weight:700;font-size:15px}
+table{border-collapse:collapse;width:100%;font-size:14px;margin-top:8px}
+td,th{border:1px solid #21262d;padding:7px 10px;text-align:left}th{background:#1c2128}
+details{margin-bottom:18px;background:#161b22;border:1px solid #21262d;border-radius:10px;padding:4px 14px}
+summary{cursor:pointer;font-weight:600;padding:10px 0;font-size:15px}
+.trend{display:flex;align-items:flex-end;gap:8px;height:100px;margin-top:8px}
+.tcol{flex:1;text-align:center;display:flex;flex-direction:column;justify-content:flex-end}
+.tbar{border-radius:4px 4px 0 0;margin-bottom:4px}.tcol small{font-size:11px;color:#8b949e}
+.foot{color:#6e7681;font-size:12.5px;margin-top:20px;text-align:center}
+b{color:#e6edf3}
+</style></head><body><div class=wrap>
+<h1>🌱 우리 자동화 키우기</h1>
+
+<div class="card hero">
+  <div class=face>🥚<span class=mood>😊</span></div>
+  <div class=stg>우리 자동화는 지금 「알」 단계</div>
+  <div class=bubble>💬 저는 지금 가격조정 요청의 <b>27%</b>를 사람 손 없이 해내요. 요즘 부쩍 회복 중이에요 📈<br>아직 <b>가격 정확도</b>가 약해서, 이걸 더 가르쳐 주시면 쑥쑥 클 거예요!</div>
+  <div class=sub>전과정 성장도 27% · 운영자가 전혀 손 안 댄 607/2,210건
+  · 다음 단계까지 +13%</div>
+  <div class=gbar><div class=gfill style="width:27%"></div></div>
+  <div class=ladder><span class='lad cur'>🥚<br><small>알<br>0~40%</small></span><span class='arr'>›</span><span class='lad '>🐣<br><small>아기<br>40~60%</small></span><span class='arr'>›</span><span class='lad '>🐥<br><small>어린이<br>60~80%</small></span><span class='arr'>›</span><span class='lad '>🐤<br><small>청소년<br>80~95%</small></span><span class='arr'>›</span><span class='lad '>🦅<br><small>어른<br>95~100%</small></span></div>
+</div>
+
+<details><summary>📋 이 점수들, 어떤 기준으로 나왔나</summary>
+<p style="font-size:14px;color:#c9d1d9;margin:6px 0 10px">
+<b>'가격조정'으로 분류된 스레드만</b> 대상. 운영자의 실제 행동을 정답으로 채점 —
+<i>손 안 댔으면 맞음, 고쳤으면 틀림.</i></p>
+<table>
+<tr><th>지표</th><th>어떻게 나온 수치</th></tr>
+<tr><td>🌱 성장도(종합)</td><td>운영자가 <b>전혀 안 고친 건</b> ÷ 채점대상</td></tr>
+<tr><td>🧭 의도 분류</td><td>가격으로 본 것 중 <b>진짜</b> 가격 비율</td></tr>
+<tr><td>🎯 등록 완결</td><td><b>승인된 건</b> ÷ 채점대상</td></tr>
+<tr><td>💰 가격 정확도</td><td><b>무수정 승인</b> ÷ 등록건</td></tr>
+</table>
+<p style="font-size:12.5px;color:#8b949e;margin:8px 0">※ 최종승인은 운영자가 직접 — 자동화의 최종승인 판단은
+라이브 미사용이라 평가 대상 아님. 가격으로 잘못 들어온 건 잡지만, 가격인데 다른 갈래로 빠진 건 못 잡음.</p>
+</details>
+
+<h2>✅ 우리 자동화, 잘 되고 있나?</h2>
+<div class=vbox>운영자가 <b>전혀 손 안 댄</b> 건이 <b>27%</b> (607/2,210건) — 이게 완전 자동화된 일이에요.<br>
+추세는 최근 <b>41%</b>까지 올라오는 중 📈.<br>
+<span style="color:#8b949e;font-size:13.5px">※ 모든 점수는 가격조정 요청만 대상 (전체 75,333건 중 가격조정 7,452건).</span></div>
+
+<h2>🔧 뭘 더 개선하면 되나?</h2>
+<div class=vbox>3개 능력 중 <b>가격 정확도</b>(44%)가 제일 약해요.<br>
+골프장 <b>46곳</b>은 한 건도 통과 못 했어요 (공지를 자유 문장+예외로 써서 어려움).<br>
+→ <b>가격 정확도</b>를 가르치는 게 가장 효과가 커요.</div>
+
+<h2>📎 근거 — 단계별 점수</h2>
+<div class=card style="padding:18px 20px"><div class='gr'><span class='grn'>의도 분류</span><span class='grt'><span class='grf' style='width:87%;background:#3fb950'></span></span><span class='grm'>87%</span></div><div class='gr'><span class='grn'>등록 완결</span><span class='grt'><span class='grf' style='width:63%;background:#d29922'></span></span><span class='grm'>63%</span></div><div class='gr'><span class='grn'>가격 정확도</span><span class='grt'><span class='grf' style='width:44%;background:#d29922'></span></span><span class='grm'>44%</span></div></div>
+
+<details open><summary>📈 월별 추세 (완전 자동화율)</summary>
+<div style="padding:8px 0 4px"><svg viewBox="0 0 680 210" width="100%" style="max-width:680px;display:block;margin:4px auto"><line x1="42" y1="176" x2="662" y2="176" stroke="#21262d" stroke-width="1" /><text x="34" y="180" text-anchor="end" fill="#6e7681" font-size="11">0%</text><line x1="42" y1="145" x2="662" y2="145" stroke="#21262d" stroke-width="1" /><text x="34" y="149" text-anchor="end" fill="#6e7681" font-size="11">10%</text><line x1="42" y1="114" x2="662" y2="114" stroke="#21262d" stroke-width="1" /><text x="34" y="118" text-anchor="end" fill="#6e7681" font-size="11">20%</text><line x1="42" y1="84" x2="662" y2="84" stroke="#21262d" stroke-width="1" /><text x="34" y="88" text-anchor="end" fill="#6e7681" font-size="11">30%</text><line x1="42" y1="53" x2="662" y2="53" stroke="#21262d" stroke-width="1" /><text x="34" y="57" text-anchor="end" fill="#6e7681" font-size="11">40%</text><line x1="42" y1="22" x2="662" y2="22" stroke="#21262d" stroke-width="1" /><text x="34" y="26" text-anchor="end" fill="#6e7681" font-size="11">50%</text><polygon points="42,176 42,98 131,108 219,141 308,134 396,127 485,100 573,80 662,49 662,176" fill="#4493f822" /><polyline points="42,98 131,108 219,141 308,134 396,127 485,100 573,80 662,49" fill="none" stroke="#4493f8" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" /><circle cx="42" cy="98" r="4.5" fill="#4493f8" stroke="#0d1117" stroke-width="2" /><text x="42" y="87" text-anchor="middle" fill="#e6edf3" font-size="12" font-weight="700">25%</text><text x="42" y="198" text-anchor="middle" fill="#8b949e" font-size="11">11월</text><circle cx="131" cy="108" r="4.5" fill="#4493f8" stroke="#0d1117" stroke-width="2" /><text x="131" y="97" text-anchor="middle" fill="#e6edf3" font-size="12" font-weight="700">22%</text><text x="131" y="198" text-anchor="middle" fill="#8b949e" font-size="11">12월</text><circle cx="219" cy="141" r="4.5" fill="#4493f8" stroke="#0d1117" stroke-width="2" /><text x="219" y="130" text-anchor="middle" fill="#e6edf3" font-size="12" font-weight="700">12%</text><text x="219" y="198" text-anchor="middle" fill="#8b949e" font-size="11">01월</text><circle cx="308" cy="134" r="4.5" fill="#4493f8" stroke="#0d1117" stroke-width="2" /><text x="308" y="123" text-anchor="middle" fill="#e6edf3" font-size="12" font-weight="700">14%</text><text x="308" y="198" text-anchor="middle" fill="#8b949e" font-size="11">02월</text><circle cx="396" cy="127" r="4.5" fill="#4493f8" stroke="#0d1117" stroke-width="2" /><text x="396" y="116" text-anchor="middle" fill="#e6edf3" font-size="12" font-weight="700">16%</text><text x="396" y="198" text-anchor="middle" fill="#8b949e" font-size="11">03월</text><circle cx="485" cy="100" r="4.5" fill="#4493f8" stroke="#0d1117" stroke-width="2" /><text x="485" y="89" text-anchor="middle" fill="#e6edf3" font-size="12" font-weight="700">25%</text><text x="485" y="198" text-anchor="middle" fill="#8b949e" font-size="11">04월</text><circle cx="573" cy="80" r="4.5" fill="#4493f8" stroke="#0d1117" stroke-width="2" /><text x="573" y="69" text-anchor="middle" fill="#e6edf3" font-size="12" font-weight="700">31%</text><text x="573" y="198" text-anchor="middle" fill="#8b949e" font-size="11">05월</text><circle cx="662" cy="49" r="4.5" fill="#4493f8" stroke="#0d1117" stroke-width="2" /><text x="662" y="38" text-anchor="middle" fill="#e6edf3" font-size="12" font-weight="700">41%</text><text x="662" y="198" text-anchor="middle" fill="#8b949e" font-size="11">06월</text></svg></div>
+<p style="font-size:12px;color:#6e7681;margin:0 0 8px">월별 = 그 달 가격조정 중 운영자가 전혀 안 고친 비율</p></details>
+
+<div class=foot>골프 가격조정 자동화 · 전과정 검증 (PRICE-147) · 운영자 실제 결정을 정답으로 채점</div>
+</div></body></html>
